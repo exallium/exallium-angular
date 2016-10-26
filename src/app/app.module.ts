@@ -6,11 +6,15 @@ import { MaterialModule } from '@angular/material'
 
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+
+import { SidenavService} from './sidenav.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +22,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     HttpModule,
     MaterialModule.forRoot()
   ],
-  providers: [],
+  providers: [SidenavService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,9 +1,23 @@
-body { 
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 
+body { 
+    font-family: Roboto;
+}
+
 .md-primary {
-    background-color: #555555;
+    background-color: #455A64;
+}
+
+.md-primary-dark {
+    background-color: #263238;
+}
+
+.md-accent {
+    background-color: #D50000;
 }
 
 .app-invert-text {
