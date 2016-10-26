@@ -1,0 +1,11 @@
+body { 
+    margin: 0;
+}
+
+.md-primary {
+    background-color: #555555;
+}
+
+.app-invert-text {
+    color: #ffffff;
+}
