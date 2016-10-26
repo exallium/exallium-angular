@@ -9,12 +9,14 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 
 import { SidenavService} from './sidenav.service';
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
