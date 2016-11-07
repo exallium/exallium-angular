@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturesComponent implements OnInit {
 
   features = [
-    {"title": "Fork me @ Github", image: "assets/Github-Mark-120px-plus.png", href: "https://www.github.com/exallium" },
+    {"title": "Fork me @ Github", image: "assets/github-logo.png", href: "https://www.github.com/exallium" },
     {"title": "Blog @ Medium", image: "assets/medium-logo.png", href: "https://blog.exallium.com" },
   ]
 
