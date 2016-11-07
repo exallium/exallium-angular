@@ -1,5 +1,10 @@
-<md-grid-list cols="6" gutterSize="4px">
-  <md-grid-tile *ngFor="let feature of features">
-    {{ feature.title }}
-  </md-grid-tile>
-</md-grid-list>
+<div class="grid-wrapper">
+    <md-grid-list cols="{{ columnCount }}" gutterSize="4px">
+      <md-grid-tile *ngFor="let feature of features">
+        <md-card>
+          <div class="image-wrapper"><img src="{{ feature.image }}" /></div>
+          <a href="{{ feature.href }}"><span>{{ feature.title }}</span></a>
+        </md-card>
+      </md-grid-tile>
+    </md-grid-list>
+</div>

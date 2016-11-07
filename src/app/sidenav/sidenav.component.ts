@@ -13,7 +13,10 @@ export class SidenavComponent implements OnInit {
 
   @ViewChild('start') sidenav: MdSidenav
 
-  pages = [ "About", "Contact Me" ]
+  pages = [ 
+    { "name": "@exallium", "href": "https://www.twitter.com/exallium" },
+    { "name": "Github", "href": "https://www.github.com/exallium"}
+  ]
 
   private subscription: Subscription
 

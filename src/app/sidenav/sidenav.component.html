@@ -1,8 +1,8 @@
 <md-sidenav #start >
-  <span>Alex Hart</span>
+  <app-sidenav-header></app-sidenav-header>
   <md-list>
     <md-list-item *ngFor="let page of pages">
-      <span>{{ page }}</span>
+      <a md-ripple href="{{ page.href }}">{{ page.name }}</a>
     </md-list-item>
   </md-list>
 </md-sidenav>

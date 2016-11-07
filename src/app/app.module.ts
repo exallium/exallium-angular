@@ -10,13 +10,15 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 
 import { SidenavService} from './sidenav.service';
 import { FeaturesComponent } from './features/features.component';
+import { SidenavHeaderComponent } from './sidenav-header/sidenav-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     SidenavComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    SidenavHeaderComponent
   ],
   imports: [
     BrowserModule,
